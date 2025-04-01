@@ -4,7 +4,9 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "dev": "bun ./src/**/*.html"
+    "dev": "bun ./src/**/*.html",
+    "build": "bun run ./scripts/build.ts",
+    "start": "bun ./dist/**/*.html"
   },
   "devDependencies": {
     "@types/bun": "latest",
