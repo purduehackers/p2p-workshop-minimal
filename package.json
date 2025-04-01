@@ -1,0 +1,19 @@
+{
+  "name": "p2p-workshop-minimal",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "bun ./src/**/*.html"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "bun-plugin-tailwind": "^0.0.15"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "tailwindcss": "^4.1.0"
+  }
+}
