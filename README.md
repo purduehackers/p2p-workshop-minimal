@@ -1,15 +1,20 @@
-# p2p-workshop-minimal
+# Minimal P2P Example
 
-To install dependencies:
+This is a minimal example of using WebRTC for peer-to-peer communication. It demonstrates how to establish a connection between two peers and exchange messages.
 
-```bash
+You can run this example with the following steps:
+
+```
+# 1. Install Bun
+curl -fsSL https://bun.sh/install | bash
+# or `nix-shell` if you have Nix installed
+
+# 2. Install dependencies
 bun install
+
+# 3. Build the project
+bun run build
+
+# 4. Start the server
+bun start
 ```
-
-To run:
-
-```bash
-bun run index.ts
-```
-
-This project was created using `bun init` in bun v1.2.4. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
